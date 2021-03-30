@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gerald Mobile Project</string>
+    <string-array name="Prodi">
+        <item>--Pilih--</item>
+        <item>Manajemen Informatika</item>
+        <item>Teknik Informatika</item>
+        <item>Teknologi Informasi</item>
+        <item>Sistem Informasi</item>
+        <item>Teknik Komputer</item>
+    </string-array>
+
+
+</resources>
