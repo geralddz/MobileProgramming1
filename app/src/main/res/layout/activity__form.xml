@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity_Form">
+
+    <TextView
+        android:id="@+id/FmNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:text="Nama : " />
+
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/FmNama"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/FmNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmNama"
+        android:textColor="@color/black"
+        android:text="NIM : " />
+
+    <TextView
+        android:id="@+id/Nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmNama"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/FmNim"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/FmHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmNim"
+        android:textColor="@color/black"
+        android:text="No. HP : "/>
+
+    <TextView
+        android:id="@+id/Hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmNim"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/FmHP"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/FmEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmHP"
+        android:textColor="@color/black"
+        android:text="Email : " />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmHP"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/FmEmail"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/FmJkel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmEmail"
+        android:textColor="@color/black"
+        android:text="Jenis Kelamin : " />
+
+    <TextView
+        android:id="@+id/JKL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmEmail"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/FmJkel"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Fmprodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmJkel"
+        android:textColor="@color/black"
+        android:text="Prodi : " />
+
+    <TextView
+        android:id="@+id/Prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/FmJkel"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/Fmprodi"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/FmUKM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/Fmprodi"
+        android:textColor="@color/black"
+        android:text="UKM : " />
+
+    <TextView
+        android:id="@+id/ukm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/Fmprodi"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/FmUKM"
+        android:textColor="@color/black"
+        android:text="" />
+
+</RelativeLayout>
