@@ -1,10 +1,12 @@
-package com.example.geraldmobileproject;
+package com.example.geraldmobileproject.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.geraldmobileproject.R;
 
 import java.security.Key;
 

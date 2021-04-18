@@ -14,6 +14,8 @@ import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.geraldmobileproject.ui.Activity_Form;
+
 public class MainActivity extends AppCompatActivity {
     Button btnsave, btndel;
     EditText etNim, etPW, etNama, etHP, etEmail;
